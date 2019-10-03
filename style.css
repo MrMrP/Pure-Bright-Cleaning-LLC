@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.bg-img {
+    background-image: url("images/shop-owner-gets-ready.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    /* color: white; */
+}
+
+.logo {
+    position: fixed;
+    right: 2%;
+    font-size: 48px;
+    /* opacity: 0.8; */
+    background:transparent!important;
+    
+}
+
+img {
+    opacity: 0.4;
+   
+}
+
+.container-content {
+    padding-left: 16px;
+    padding-right: 16px;
+    position: fixed;
+    top: 35%;
+    right: 2%;
+
+}
+
+hr {
+    width: 100%;
+    color: black;
+}
+
+h1 {
+    font-size: 4em!important;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+h5 { 
+    font-size: 2em!important;
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+h5, h1 { 
+    line-height: 2.6em;
+    position: relative;
+    /* animation: animatetop 1.0s; */
+}
+
+ /* SOCIAL/CONTACT ICONS */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    right: 5.5%;
+  }
+  
+  .wrapper i {
+    padding: 10px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+  }
+  .wrapper a:nth-child(1) {
+    color: #dd4b39;
+  }
+  .wrapper a:nth-child(2) {
+    color: #4867AA;
+  }
+  .wrapper a:nth-child(3) {
+    color: #1DA1F2;
+  }
+  .wrapper i:hover {
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  /* FOOTER */
+
+  footer {
+    position: fixed;
+    top: 90%;
+    left: 75%;
+    /* right: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    color: black;
+  }
+
+  footer p {
+    font-size: 0.9em!important;
+
+}
